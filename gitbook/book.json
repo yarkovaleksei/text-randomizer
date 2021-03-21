@@ -1,0 +1,24 @@
+{
+  "gitbook": "3.x.x",
+  "root": "./",
+  "plugins": ["edit-link", "theme-vuejs@git+https://github.com/pearofducks/gitbook-plugin-theme-vuejs.git", "github"],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/yarkovaleksei/text-randomizer/tree/main/gitbook",
+      "label": "Edit This Page"
+    },
+    "github": {
+      "url": "https://github.com/yarkovaleksei/text-randomizer/"
+    }
+  },
+  "links": {
+    "sharing": {
+      "facebook": true,
+      "twitter": true
+    }
+  },
+  "variables": {
+    "packageName": "text-randomizer",
+    "packageVersion": "1.0.0"
+  }
+}

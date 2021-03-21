@@ -1,0 +1,41 @@
+.container,
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  flex-direction: column;
+}
+
+.row {
+  padding-bottom: 20px;
+}
+
+textarea {
+  width: calc(100vw - 40px);
+  min-height: 200px;
+  padding: 10px;
+}
+
+button {
+  background-color: #cccccc;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.text {
+  width: calc(100vw - 40px);
+  padding: 10px;
+  border: 1px dashed #cccccc;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.text:empty {
+  display: none;
+}
