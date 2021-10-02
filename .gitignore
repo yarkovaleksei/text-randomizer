@@ -3,7 +3,6 @@ dist/*.gz
 dist/*.js
 dist/*.ts
 dist/*.map
-docs/_book
 node_modules
 .DS_Store
 .vscode

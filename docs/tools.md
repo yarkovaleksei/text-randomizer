@@ -33,7 +33,7 @@ const textRandomizer = new Randomizer(options);
 textRandomizer.render("{{number(1, 4)}}"); // Вернёт число от 1 до 4
 ```
 
-Возвращаемое значение: `Number`
+Возвращаемое значение: `number`
 
 ### Choice
 
@@ -72,7 +72,7 @@ textRandomizer.render("{{choice(['one', 'two', 'three', 'four'], 1, true)}}"); /
 textRandomizer.render("{{choice({a: 'avalue', b: 'bvalue', c: 'cvalue'}, 1, true)}}"); // Вернёт случайное значение из объекта ("avalue", "bvalue" или "cvalue")
 ```
 
-Возвращаемое значение: `Any`
+Возвращаемое значение: `any`
 
 
 ### Random
@@ -104,4 +104,4 @@ textRandomizer.render("{{random([1, 2, 3, 4])}}"); // Вернёт случай�
 textRandomizer.render("{{random({a: 'avalue', b: 'bvalue'})}}"); // Вернёт случайное значение из объекта ("avalue" или "bvalue")
 ```
 
-Возвращаемое значение: `Any`
+Возвращаемое значение: `any`
