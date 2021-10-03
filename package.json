@@ -28,7 +28,6 @@
     "build:types": "tsc src/index.ts -t es5 --declaration --emitDeclarationOnly --outDir dist",
     "build": "run-s clean build:package build:types",
     "start": "cross-env NODE_ENV=development rollup -c rollup.config.ts --watch",
-    "docs:version": "node config/version.js",
     "docs:watch": "docsify serve docs --port 8080",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix",
