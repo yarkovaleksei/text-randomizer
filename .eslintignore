@@ -1,0 +1,8 @@
+node_modules
+dist
+logs
+config
+test/manual/**/*.js
+*.d.ts
+rollup.config.ts
+jest.config.js

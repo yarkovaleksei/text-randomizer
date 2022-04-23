@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Text Randomizer</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <textarea>{{random(['Внимание', 'Срочно', 'Не срочно'])}}!!! Продам {{number(1, 4)}}-комнатную квартиру в {{city}}.
+В квартире зимой очень тепло, не угловая. Для {{random(['летнего', 'зимнего'])}} периода имеется {{random(['кондиционер', 'вентилятор', 'обогреватель'])}}.
+Вся система отопления и водоснабжения в отличном состоянии, на все есть счетчики.
+Дом находится в {{random(['тихом районе', 'жопе мира', 'эпицентре ада'])}}, в подъезде {{random(['хорошие соседи', 'ночуют бомжи', 'воняет'])}}.
+{{facilities}}
+Звонить по номеру 89991234567, спросить {{names}}.</textarea>
+    </div>
+    <div class="row">
+      <button>Сгенерировать текст</button>
+    </div>
+    <div class="row">
+      <div class="text"></div>
+    </div>
+  </div>
+
+	<script src="./script.js" type="module"></script>
+</body>
+</html>
